@@ -1,0 +1,20 @@
+# ---- Arduino 编译产物 ----
+build/
+*.hex
+*.elf
+*.bin
+*.map
+*.o
+*.d
+
+# ---- 安装包与驱动（二进制大文件，不入库；GitHub 单文件上限 100MB）----
+*.exe
+*.msi
+CH341SER-Driver/
+
+# ---- 第三方库压缩包（建议用 Arduino 库管理器安装，不入库）----
+*.zip
+
+# ---- 操作系统缩略图 ----
+.DS_Store
+Thumbs.db
